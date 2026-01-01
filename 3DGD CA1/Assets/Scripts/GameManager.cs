@@ -5,7 +5,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI Timer;
-    private float timeLeft = 90f;
+    private float timeLeft = 70f;
 
     void Update()
     {
