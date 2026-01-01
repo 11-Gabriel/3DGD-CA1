@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 59867
+  controlID: 16045
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 59738
+  controlID: 15922
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 1281
     height: 473
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -821,9 +821,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 5.944477, y: 0.9163742, z: -11.177125}
+    m_Target: {x: -15.248209, y: 5.951359, z: -4.6488643}
     speed: 2
-    m_Value: {x: 5.944477, y: 0.9163742, z: -11.177125}
+    m_Value: {x: -15.248209, y: 5.951359, z: -4.6488643}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -851,17 +851,17 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -869,17 +869,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.003080592, y: -0.9627408, z: 0.010974394, w: 0.2701931}
+    m_Target: {x: 0, y: 1, z: 0, w: 0}
     speed: 2
-    m_Value: {x: 0.0030805857, y: -0.9627388, z: 0.010974372, w: 0.27019256}
+    m_Value: {x: 0, y: 1, z: 0, w: 0}
   m_Size:
-    m_Target: 7.9033704
+    m_Target: 14.88557
     speed: 2
-    m_Value: 7.9033704
+    m_Value: 14.88557
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.2437998
     m_SpeedNormalized: 0.6199999
@@ -947,7 +947,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 85564
+  m_LastSelectedObjectID: -33984
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1056,8 +1056,8 @@ MonoBehaviour:
     y: 473
     width: 1281
     height: 468
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 59798
+  controlID: 15976
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -1108,8 +1108,8 @@ MonoBehaviour:
     y: 0
     width: 274
     height: 471
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -1156,7 +1156,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ba99fdfffe9afdff40f8fdffb8fdfdff8afefdff6600feffd810feff7234feff643bfeff4c56feff3657feffaa5ffeff186ffeff8a7cfeffa07dfeffbaa4feff80b2feff90bbfeff0ec1feff7cddfeffd4f7feff7c00ffff320effff2a1dffffa236ffffa65affffeefaffff4eb00000d0b00000eaf7000024fc00002a22010028230100204e0100484e0100784f0100
+      m_ExpandedIDs: 487bffff8a7bffffac7bffffae7bffff587dffffb87dffff707fffff2c81ffff3c81ffffe490ffff8294ffff7696ffffd097ffffeefafffffeb10000b6d300008cd40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1262,8 +1262,8 @@ MonoBehaviour:
     y: 0
     width: 527
     height: 941
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 276}
+  m_MaxSize: {x: 10002, y: 10026}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -1316,7 +1316,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1326,7 +1326,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gab\OneDrive - Singapore Polytechnic\Desktop\3DGD-CA1\3DGD
     CA1
@@ -1334,9 +1334,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: feb30000
-    m_LastClickedID: 46078
-    m_ExpandedIDs: 0000000004b2000000ca9a3b
+    m_SelectedIDs: 98b50000
+    m_LastClickedID: 46488
+    m_ExpandedIDs: 0000000016b5000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1365,7 +1365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000004b2000000ca9a3b
+    m_ExpandedIDs: 0000000016b5000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1391,9 +1391,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f81dfdffbc1afdff
-    m_LastClickedInstanceID: -189764
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 3a7bffff
+    m_LastClickedInstanceID: -33990
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 50c7000066a300008e6700004e65000000000000787002006c7002007e700200fc660000906200009462000066620000a4680000fc610000e8610000f4610000e4610000f8610000f0610000506e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     m_CachedPref: 225
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -189764
+  m_LastInspectedObjectInstanceID: -33990
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

@@ -40,7 +40,9 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-    
+
+    // -------------- Text animation stuff -------------- 
+
     System.Collections.IEnumerator ShowCompleteText()
     {
         TextMeshProUGUI text = completeText.GetComponent<TextMeshProUGUI>();
@@ -49,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         Color c = text.color;
         float alpha = 0;
         float pos = -200;
-        float targetPos = 400; // Top middle position (higher)
+        float targetPos = 0; // Somewher in the middle of screen
         
         // Move to target position while fading in
         while (pos < targetPos || alpha < 1)
