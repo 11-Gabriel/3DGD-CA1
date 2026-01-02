@@ -11,7 +11,10 @@ public class Door : MonoBehaviour
 
     void Update()
     {
-        if (!isOpen && PlayerMovement.totalKeyCount == 2)
+        bool isLevel2 = SceneManager.GetActiveScene().name == "Level 2";
+        int requiredKeys = isLevel2 ? 3 : 2;
+        
+        if (!isOpen && PlayerMovement.totalKeyCount == requiredKeys)
         {
             doorObject.SetActive(true);
             if (findTheDoorText != null)
@@ -26,7 +29,15 @@ public class Door : MonoBehaviour
     {
         if (other.CompareTag("Player") && isOpen)
         {
-            SceneManager.LoadScene("Level 2");
+            bool isLevel2 = SceneManager.GetActiveScene().name == "Level 2";
+            if (isLevel2 && PlayerMovement.totalKeyCount == 3)
+            {
+                SceneManager.LoadScene("Level 3");
+            }
+            else
+            {
+                SceneManager.LoadScene("Level 2");
+            }
         }
     }
 }
