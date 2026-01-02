@@ -39,6 +39,14 @@ public class PlayerMovement : MonoBehaviour
                 StartCoroutine(ShowCompleteText());
             }
         }
+        else if (hit.collider.gameObject.CompareTag("Door"))
+        {
+            UnlockDoor doorScript = hit.collider.gameObject.GetComponent<UnlockDoor>();
+            if (doorScript != null)
+            {
+                doorScript.CheckKeys();
+            }
+        }
     }
 
     // -------------- Text animation stuff -------------- 
