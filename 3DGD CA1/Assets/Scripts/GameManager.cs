@@ -5,7 +5,12 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI Timer;
-    private float timeLeft = 70f;
+    private float timeLeft;
+    
+    void Start()
+    {
+        timeLeft = SceneManager.GetActiveScene().name == "Level 2" ? 60f : 90f;
+    }
 
     void Update()
     {

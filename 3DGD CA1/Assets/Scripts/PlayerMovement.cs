@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         Color c = text.color;
         float alpha = 0;
         float pos = -200;
-        float targetPos = 0; // Somewher in the middle of screen
+        float targetPos = 0; // Somewhere in the middle of screen
         
         // Move to target position while fading in
         while (pos < targetPos || alpha < 1)
@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
         
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         
         while (alpha > 0)
         {
