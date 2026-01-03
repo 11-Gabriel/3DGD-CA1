@@ -9,8 +9,6 @@ public class UnlockDoor : MonoBehaviour
     public GameObject findTheOtherKeyText;
     public GameObject findTheKeysText;
     
-    private bool hasShownText = false;
-    
     void Start()
     {
         if (findTheOtherKeyText != null)
@@ -21,8 +19,6 @@ public class UnlockDoor : MonoBehaviour
     
     public void CheckKeys()
     {
-        if (hasShownText) return;
-        
         bool hasYellowKey = yellowKey == null;
         bool hasBlueKey = blueKey == null;
         
@@ -47,8 +43,6 @@ public class UnlockDoor : MonoBehaviour
                 StartCoroutine(ShowTextTemporarily(findTheKeysText));
             }
         }
-        
-        hasShownText = true;
     }
     
     IEnumerator DestroyDoorAfterDelay()
