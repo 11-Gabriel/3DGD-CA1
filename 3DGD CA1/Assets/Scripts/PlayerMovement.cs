@@ -15,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        if (sceneName == "Level 1" || sceneName == "Level 2" || sceneName == "Level 3")
+        {
+            totalKeyCount = 0;
+        }
     }
 
     void Update()
@@ -34,7 +40,10 @@ public class PlayerMovement : MonoBehaviour
             totalKeyCount++;
             Destroy(hit.collider.gameObject);
             
-            if (totalKeyCount == 2)
+            bool isLevel3 = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Level 3";
+            int requiredKeys = isLevel3 ? 3 : 2;
+            
+            if (totalKeyCount == requiredKeys)
             {
                 StartCoroutine(ShowCompleteText());
             }
@@ -45,6 +54,14 @@ public class PlayerMovement : MonoBehaviour
             if (doorScript != null)
             {
                 doorScript.CheckKeys();
+            }
+            else
+            {
+                Level3UnlockDoor level3DoorScript = hit.collider.gameObject.GetComponent<Level3UnlockDoor>();
+                if (level3DoorScript != null)
+                {
+                    level3DoorScript.CheckKeys();
+                }
             }
         }
     }

@@ -11,8 +11,15 @@ public class Door : MonoBehaviour
 
     void Update()
     {
-        bool isLevel2 = SceneManager.GetActiveScene().name == "Level 2";
-        int requiredKeys = isLevel2 ? 3 : 2;
+        string sceneName = SceneManager.GetActiveScene().name;
+        int requiredKeys;
+        
+        if (sceneName == "Level 2")
+            requiredKeys = 3;
+        else if (sceneName == "Level 3")
+            requiredKeys = 3;
+        else
+            requiredKeys = 2;
         
         if (!isOpen && PlayerMovement.totalKeyCount == requiredKeys)
         {
@@ -29,8 +36,12 @@ public class Door : MonoBehaviour
     {
         if (other.CompareTag("Player") && isOpen)
         {
-            bool isLevel2 = SceneManager.GetActiveScene().name == "Level 2";
-            if (isLevel2 && PlayerMovement.totalKeyCount == 3)
+            string sceneName = SceneManager.GetActiveScene().name;
+            if (sceneName == "Level 3" && PlayerMovement.totalKeyCount == 3)
+            {
+                SceneManager.LoadScene("GameWin");
+            }
+            else if (sceneName == "Level 2" && PlayerMovement.totalKeyCount == 3)
             {
                 SceneManager.LoadScene("Level 3");
             }
