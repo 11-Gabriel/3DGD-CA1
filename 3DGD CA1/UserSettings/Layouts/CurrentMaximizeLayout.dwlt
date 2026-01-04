@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 7906
+  controlID: 26807
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -50,9 +50,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 549
+    y: 554
     width: 1280
-    height: 445
+    height: 440
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1280, y: 424}
+  m_TargetSize: {x: 1280, y: 419}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -89,8 +89,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
-    m_VBaseRangeMin: -212
-    m_VBaseRangeMax: 212
+    m_VBaseRangeMin: -209.5
+    m_VBaseRangeMax: 209.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -109,9 +109,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1280
-      height: 424
+      height: 419
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 640, y: 212}
+    m_Translation: {x: 640, y: 209.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -119,12 +119,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -640
-      y: -212
+      y: -209.5
       width: 1280
-      height: 424
+      height: 419
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1280, y: 445}
+  m_LastWindowPixelSize: {x: 1280, y: 440}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 0
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 7643
+  controlID: 26669
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -175,7 +175,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1281
-    height: 470
+    height: 475
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 5}
@@ -210,7 +210,7 @@ MonoBehaviour:
     x: 0
     y: 79
     width: 1280
-    height: 444
+    height: 449
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -821,9 +821,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -17.801891, y: 6.8300133, z: -1.1604927}
+    m_Target: {x: -1.1278443, y: 6.7033243, z: -2.7555473}
     speed: 2
-    m_Value: {x: -17.801891, y: 6.8300133, z: -1.1604927}
+    m_Value: {x: -1.1278443, y: 6.7033243, z: -2.7555473}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -869,13 +869,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.13942042, y: 0.6946114, z: -0.14000945, w: 0.6916996}
+    m_Target: {x: 0.21973369, y: -0.10657869, z: 0.024156623, w: 0.9694211}
     speed: 2
-    m_Value: {x: 0.13942224, y: 0.6946204, z: -0.14001127, w: 0.6917086}
+    m_Value: {x: 0.2197334, y: -0.10657855, z: 0.02415659, w: 0.96941984}
   m_Size:
-    m_Target: 4.514474
+    m_Target: 3.60834
     speed: 2
-    m_Value: 4.514474
+    m_Value: 3.60834
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -947,7 +947,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 51214
+  m_LastSelectedObjectID: -49110
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1053,9 +1053,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 470
+    y: 475
     width: 1281
-    height: 471
+    height: 466
   m_MinSize: {x: 101, y: 126}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 2}
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 7702
+  controlID: 26739
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -1156,7 +1156,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 88abffff8aabffff60b9ffff90c0ffff5ecfffff56d1ffff68faffff74faffffe6faffffeefaffffa6b00000c0b000005cc900003ad60000
+      m_ExpandedIDs: 48edfeffbef9feff8a1bffffec2cffff2840ffff34abffff60abffff88abffff8aabffff60b9ffff90c0ffff5ecfffff56d1ffff68faffff74faffffe6faffffeefaffffa6b00000c0b000005cc900003ad60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1316,7 +1316,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Materials
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1326,7 +1326,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gab\OneDrive - Singapore Polytechnic\Desktop\3DGD-CA1\3DGD
     CA1
@@ -1334,8 +1334,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d6b30000
-    m_LastClickedID: 46038
+    m_SelectedIDs: d2b30000
+    m_LastClickedID: 46034
     m_ExpandedIDs: 0000000044b3000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1391,9 +1391,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 82abffff
-    m_LastClickedInstanceID: -21630
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 4aedfeff
+    m_LastClickedInstanceID: -70326
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 50c7000066a300008e6700004e65000000000000787002006c7002007e700200fc660000906200009462000066620000a4680000fc610000e8610000f4610000e4610000f8610000f0610000506e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     m_CachedPref: 225
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -21630
+  m_LastInspectedObjectInstanceID: -70326
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
