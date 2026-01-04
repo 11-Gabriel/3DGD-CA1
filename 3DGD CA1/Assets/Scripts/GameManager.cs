@@ -9,7 +9,13 @@ public class GameManager : MonoBehaviour
     
     void Start()
     {
-        timeLeft = SceneManager.GetActiveScene().name == "Level 2" ? 60f : 90f;
+        string sceneName = SceneManager.GetActiveScene().name;
+        if (sceneName == "Level 2")
+            timeLeft = 60f;
+        else if (sceneName == "Level 3")
+            timeLeft = 45f;
+        else
+            timeLeft = 90f;
     }
 
     void Update()
