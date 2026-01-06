@@ -4,57 +4,57 @@ using TMPro;
 
 public class TimeTracker : MonoBehaviour
 {
-    public TextMeshProUGUI timeText;
-    private static float totalTime = 0f;
-    private static bool isTracking = false;
+    public TextMeshProUGUI timeText; // UI element to display time
+    private static float totalTime = 0f; // Persistent across scenes
+    private static bool isTracking = false; // Control when timer runs
     
-    void Start()
+    void Start() // Initialize tracking based on current scene
     {
-        string sceneName = SceneManager.GetActiveScene().name;
+        string sceneName = SceneManager.GetActiveScene().name; // Get current scene name
         
         if (sceneName == "MainMenu")
         {
-            isTracking = false;
+            isTracking = false; // Don't track time in main menu
         }
         else if (sceneName == "GameOverScene")
         {
-            isTracking = false;
+            isTracking = false; // Stop tracking time when in game over scene
         }
         else if (sceneName == "Level 1")
         {
-            totalTime = 0f;
-            isTracking = true;
+            totalTime = 0f; // Reset timer for new game
+            isTracking = true; // Start tracking time
         }
         
         if (sceneName == "GameWin")
         {
-            isTracking = false;
+            isTracking = false; // Stop tracking when player wins
             if (timeText != null)
             {
-                timeText.text = "Time Taken: " + FormatTime(totalTime);
+                timeText.text = "Time Taken: " + FormatTime(totalTime); // Display final time
             }
         }
     }
     
-    void Update()
+    void Update() // Increment total time while tracking is enabled
     {
-        if (isTracking)
+        if (isTracking) // Only add time when game is active
         {
-            totalTime += Time.deltaTime;
+            totalTime += Time.deltaTime; // Accumulate time
         }
     }
     
-    string FormatTime(float time)
+    string FormatTime(float time) // Convert time to readable string format
     {
-        if (time >= 60)
+        if (time >= 60) // If time is 1 minute or more
         {
-            int minutes = Mathf.FloorToInt(time / 60);
-            int seconds = Mathf.CeilToInt(time % 60);
+            int minutes = Mathf.FloorToInt(time / 60); // Get whole minutes
+            int seconds = Mathf.CeilToInt(time % 60); // Round up for remaining seconds
             return minutes + " Minute " + seconds + " seconds";
         }
-        else
+        else // Less than 1 minute
         {
-            return Mathf.Ceil(time) + " seconds";
+            return Mathf.Ceil(time) + " seconds"; // Round up to nearest second
         }
     }
 }
