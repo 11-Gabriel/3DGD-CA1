@@ -5021,6 +5021,18 @@ PrefabInstance:
       propertyPath: Timer
       value: 
       objectReference: {fileID: 1287755974}
+    - target: {fileID: 3198347878962766069, guid: 44e1ff98d79ce05459d4cc3aa966a6a7, type: 3}
+      propertyPath: PauseMenu
+      value: 
+      objectReference: {fileID: 1481836380}
+    - target: {fileID: 3198347878962766069, guid: 44e1ff98d79ce05459d4cc3aa966a6a7, type: 3}
+      propertyPath: mainMenuButton
+      value: 
+      objectReference: {fileID: 1481836378}
+    - target: {fileID: 3198347878962766069, guid: 44e1ff98d79ce05459d4cc3aa966a6a7, type: 3}
+      propertyPath: resumeGameButton
+      value: 
+      objectReference: {fileID: 1481836379}
     - target: {fileID: 3887164827633845093, guid: 44e1ff98d79ce05459d4cc3aa966a6a7, type: 3}
       propertyPath: m_Name
       value: Game Manager
@@ -5789,6 +5801,33 @@ PrefabInstance:
       addedObject: {fileID: 94317333}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ae89e8c4a1e3ee40bdb3ce62563b165, type: 3}
+--- !u!114 &1481836378 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6540249595465459346, guid: 7ae89e8c4a1e3ee40bdb3ce62563b165, type: 3}
+  m_PrefabInstance: {fileID: 1481836377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1481836379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3979180404567227776, guid: 7ae89e8c4a1e3ee40bdb3ce62563b165, type: 3}
+  m_PrefabInstance: {fileID: 1481836377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1481836380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3810056068299876607, guid: 7ae89e8c4a1e3ee40bdb3ce62563b165, type: 3}
+  m_PrefabInstance: {fileID: 1481836377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1518898244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6411,7 +6450,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 100
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -6437,8 +6476,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642389791}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19033334, y: -0.702411, z: 0.20418625, w: 0.65475184}
-  m_LocalPosition: {x: -24.024477, y: 8.724222, z: -14.097288}
+  m_LocalRotation: {x: 0.18459237, y: 0.8146284, z: -0.40807638, w: 0.36848325}
+  m_LocalPosition: {x: -33.684464, y: 12.821335, z: -7.725263}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
