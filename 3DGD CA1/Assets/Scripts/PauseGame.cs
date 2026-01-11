@@ -5,46 +5,46 @@ using TMPro;
 
 public class PauseGame : MonoBehaviour
 {
-    public GameObject PauseMenu; 
-    public Button resumeGameButton; 
-    public Button mainMenuButton; 
+    public GameObject PauseMenu;
+    public Button resumeGameButton;
+    public Button mainMenuButton;
     
-    private bool isPaused = false; // Track if game is currently paused
+    private bool isPaused = false;
 
-    void Start() // Set up button click listeners
+    void Start()
     {
-        resumeGameButton.onClick.AddListener(ResumeGame); // Call ResumeGame when resume button clicked
-        mainMenuButton.onClick.AddListener(LoadMainMenu); // Call LoadMainMenu when menu button clicked
+        resumeGameButton.onClick.AddListener(ResumeGame);
+        mainMenuButton.onClick.AddListener(LoadMainMenu);
     }
 
-    void Update() 
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) // When player pressed Escape key
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
-                ResumeGame(); // Unpause if already paused
+                ResumeGame();
             else
-                PauseGameFunction(); // Pause if not paused
+                PauseGameFunction();
         }
     }
     
-    public void PauseGameFunction() // Stop game and show pause menu
+    public void PauseGameFunction()
     {
-        PauseMenu.SetActive(true); // Show pause menu UI
-        Time.timeScale = 0f; // Freeze all game time
-        isPaused = true; // Mark game as paused
+        PauseMenu.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
     }
     
-    public void ResumeGame() // Resume game and hide pause menu
+    public void ResumeGame()
     {
-        PauseMenu.SetActive(false); // Hide pause menu UI
-        Time.timeScale = 1f; // Restore normal game speed
-        isPaused = false; // Mark game as not paused
+        PauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
     }
     
-    public void LoadMainMenu() // Return to main menu screen
+    public void LoadMainMenu()
     {
-        Time.timeScale = 1f; // Restore normal time before leaving scene
-        SceneManager.LoadScene("MainMenuScene"); // Load main menu scene
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenuScene");
     }
 }
