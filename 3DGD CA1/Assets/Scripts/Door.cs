@@ -17,7 +17,7 @@ public class Door : MonoBehaviour
         if (sceneName == "Level 2")
             requiredKeys = 3; // Level 2 needs 3 keys
         else if (sceneName == "Level 3")
-            requiredKeys = 3; // Level 3 needs 3 keys
+            return; // Level 3 uses Level3UnlockDoor system, skip this logic
         else
             requiredKeys = 2; // Default: 2 keys
         
