@@ -12,6 +12,11 @@ public class ButtonsScript : MonoBehaviour
     {
         SceneManager.LoadScene("Level 1");
     }
+
+    public void CreditsButton()
+    {
+        SceneManager.LoadScene("Credits Scene");
+    }
     
     public void QuitButton()
     {
